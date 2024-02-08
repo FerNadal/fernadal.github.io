@@ -1,0 +1,509 @@
+[Propiedades]
+Nº Entidades=20
+
+[Mec. Deslizadera]
+Tipo Entidad=Mecanismo Deslizadera
+Mecanismo Cruzado=Si
+
+[Apoyo O2]
+Tipo Entidad=Apoyo
+Dibujable=Si
+Posición=0 0
+
+[Barra 2]
+Tipo Entidad=Barra
+Dibujable=Si
+Masa=0
+Momento de Inercia=0
+Momento Externo=0
+CIR Relativo=No
+Recta Kennedy=No
+Tipo Forma=0
+Forma Dibujable=No
+Color Propio Forma=26
+Transparencia=2
+Color Común de Formas=Si
+Longitud=2
+
+[Punto A]
+Tipo Entidad=Punto Extremo
+Dibujable=Si
+Masa=0
+Fuerza=0 0
+
+[Excentricidad Ex3]
+Tipo Entidad=Excentricidad
+Dibujable=Si
+Masa=0
+Momento de Inercia=0
+Momento Externo=0
+CIR Relativo=No
+Recta Kennedy=No
+Tipo Forma=0
+Forma Dibujable=No
+Color Propio Forma=26
+Transparencia=2
+Color Común de Formas=Si
+Longitud=1
+Nula=Si
+Ángulo=1.5707963267949
+
+[Punto A']
+Tipo Entidad=Punto Extremo Excentricidad
+Dibujable=Si
+Masa=0
+Fuerza=0 0
+
+[Deslizadera 3]
+Tipo Entidad=Deslizadera Movil
+Dibujable=Si
+Masa=0
+Momento de Inercia=0
+Momento Externo=0
+CIR Relativo=No
+Recta Kennedy=No
+Tipo Forma=0
+Forma Dibujable=No
+Color Propio Forma=26
+Transparencia=2
+Color Común de Formas=Si
+Posición Relativa Articulacion=0.25 0.15
+Ancho=0.5
+Alto=0.3
+
+[Apoyo O4]
+Tipo Entidad=Apoyo
+Dibujable=Si
+Posición=0 -4
+
+[Excentricidad Ex4]
+Tipo Entidad=Excentricidad
+Dibujable=Si
+Masa=0
+Momento de Inercia=0
+Momento Externo=0
+CIR Relativo=No
+Recta Kennedy=No
+Tipo Forma=0
+Forma Dibujable=No
+Color Propio Forma=26
+Transparencia=2
+Color Común de Formas=Si
+Longitud=1
+Nula=Si
+Ángulo=1.5707963267949
+
+[Punto B]
+Tipo Entidad=Punto Extremo
+Dibujable=Si
+Masa=0
+Fuerza=0 0
+
+[Barra 4]
+Tipo Entidad=Barra
+Dibujable=Si
+Masa=0
+Momento de Inercia=0
+Momento Externo=0
+CIR Relativo=No
+Recta Kennedy=No
+Tipo Forma=0
+Forma Dibujable=No
+Color Propio Forma=26
+Transparencia=2
+Color Común de Formas=Si
+Longitud=7
+
+[Punto C]
+Tipo Entidad=Punto Extremo
+Dibujable=Si
+Masa=0
+Fuerza=0 0
+
+[Dda. Biela Manivela Fija 1]
+Tipo Entidad=Diada Biela Manivela Fija
+Mecanismo Cruzado=No
+Enlace(A)=Punto C
+
+[Barra 5]
+Tipo Entidad=Barra
+Dibujable=Si
+Masa=0
+Momento de Inercia=0
+Momento Externo=0
+CIR Relativo=No
+Recta Kennedy=No
+Tipo Forma=0
+Forma Dibujable=No
+Color Propio Forma=26
+Transparencia=2
+Color Común de Formas=Si
+Longitud=5
+
+[Punto D]
+Tipo Entidad=Punto Extremo
+Dibujable=Si
+Masa=0
+Fuerza=0 0
+
+[Excentricidad Ex6]
+Tipo Entidad=Excentricidad
+Dibujable=Si
+Masa=0
+Momento de Inercia=0
+Momento Externo=0
+CIR Relativo=No
+Recta Kennedy=No
+Tipo Forma=0
+Forma Dibujable=No
+Color Propio Forma=26
+Transparencia=2
+Color Común de Formas=Si
+Longitud=0
+Nula=Si
+Ángulo=1.5707963267949
+
+[Punto D']
+Tipo Entidad=Punto Extremo Excentricidad
+Dibujable=Si
+Masa=0
+Fuerza=0 0
+
+[Deslizadera 6]
+Tipo Entidad=Deslizadera Movil
+Dibujable=Si
+Masa=0
+Momento de Inercia=0
+Momento Externo=0
+CIR Relativo=No
+Recta Kennedy=No
+Tipo Forma=0
+Forma Dibujable=No
+Color Propio Forma=26
+Transparencia=2
+Color Común de Formas=Si
+Posición Relativa Articulacion=0.25 0.15
+Ancho=0.5
+Alto=0.3
+
+[Recta de Apoyo R1]
+Tipo Entidad=Recta
+Dibujable=Si
+Ángulo=0
+
+[Punto Fijo F1]
+Tipo Entidad=Punto Fijo
+Dibujable=Si
+Posición=0 4
+
+[Descripcion]
+Nº Líneas=3
+Línea1={\rtf1\ansi\ansicpg1252\deff0\deflang3082{\fonttbl{\f0\fnil Microsoft Sans Serif;}}
+Línea2=\viewkind4\uc1\pard\f0\fs14 
+Línea3=\par }
+Ancho=256
+Alto=164
+Visible=No
+
+[Eslabón Motor]
+Tipo Entidad=Barra 2
+Posición=64.9999999999999
+Velocidad=10
+Aceleración=0
+Incremento=5
+
+[Lista CDG's Eslabones]
+Barra 2=Apoyo O2
+Deslizadera 3=Punto A
+Barra 4=Apoyo O4
+Barra 5=Punto C
+Deslizadera 6=Punto D
+
+[Visualización]
+Posición Foco-0=-11.04 8.6
+Zoom-0=1
+Escala de Posiciones-0=17.86
+Escala de Velocidades-0=223.25
+Escala de Aceleraciones-0=1786
+Escala de Fuerzas-0=178.6
+Posición Foco-1=-2.66666666666667 5
+Zoom-1=1
+Escala de Posiciones-1=8.5047619047619
+Escala de Velocidades-1=106.309523809524
+Escala de Aceleraciones-1=850.47619047619
+Escala de Fuerzas-1=85.047619047619
+Posición Foco-2=-8 5
+Zoom-2=1
+Escala de Posiciones-2=8.5047619047619
+Escala de Velocidades-2=106.309523809524
+Escala de Aceleraciones-2=850.47619047619
+Escala de Fuerzas-2=85.047619047619
+Posición Foco-3=-8 5
+Zoom-3=1
+Escala de Posiciones-3=8.5047619047619
+Escala de Velocidades-3=106.309523809524
+Escala de Aceleraciones-3=850.47619047619
+Escala de Fuerzas-3=85.047619047619
+Posición Foco-4=-8 5
+Zoom-4=1
+Escala de Posiciones-4=8.5047619047619
+Escala de Velocidades-4=106.309523809524
+Escala de Aceleraciones-4=850.47619047619
+Escala de Fuerzas-4=85.047619047619
+Posición Foco-5=-2.66666666666667 5
+Zoom-5=1
+Escala de Posiciones-5=8.5047619047619
+Escala de Velocidades-5=106.309523809524
+Escala de Aceleraciones-5=850.47619047619
+Escala de Fuerzas-5=85.047619047619
+Posición Foco-6=-2.66666666666667 5
+Zoom-6=1
+Escala de Posiciones-6=8.5047619047619
+Escala de Velocidades-6=106.309523809524
+Escala de Aceleraciones-6=850.47619047619
+Escala de Fuerzas-6=85.047619047619
+Posición Foco-7=-2.66666666666667 5
+Zoom-7=1
+Escala de Posiciones-7=8.5047619047619
+Escala de Velocidades-7=106.309523809524
+Escala de Aceleraciones-7=850.47619047619
+Escala de Fuerzas-7=85.047619047619
+Solapa Activa=0
+
+[Filtros Gráficos]
+FG.SistemasReferencia=No
+FG.Escala=Si
+FG.Fijas=Si
+FG.Leyendas=Si
+FG.Eslabones=Si
+FG.Formas=No
+FG.RadiosInstantaneos=No
+FG.CIRs=No
+FG.CIGs=No
+FG.AccionEquilibrante=No
+FG.Fuerzas=No
+FG.Reacciones=No
+FG.Pares=No
+FG.Posiciones=No
+FG.Velocidades=No
+FG.Aceleraciones=No
+FG.PosicionesAngulares=No
+FG.VelocidadesAngulares=No
+FG.AceleracionesAngulares=No
+FG.CDGs=No
+FG.Puntos=Si
+FG.ElementosDinamicos=Si
+SubFG.SistemasReferenciaAbs=Si
+SubFG.SistemasReferenciaRel=Si
+SubFG.SistemasReferenciaInfo=No
+SubFG.EscalaPosiciones=Si
+SubFG.EscalaVelocidades=No
+SubFG.EscalaAceleraciones=No
+SubFG.EscalaFuerzas=No
+FG.PosicionesSintesis=Si
+SubFG.PosicionesReferencia=Si
+SubFG.PosicionesReales=Si
+FG.TrayectoriasSintesis=Si
+SubFG.TrayectoriaReferencia=Si
+SubFG.TrayectoriaReal=Si
+FG.VelocidadesSintesis=No
+SubFG.VelocidadReferencia=No
+SubFG.VelocidadReal=No
+SubFG.VectoresVelocidad=No
+FG.AceleracionesSintesis=No
+SubFG.AceleracionReferencia=No
+SubFG.AceleracionReal=No
+SubFG.VectoresAceleracion=No
+FG.ErrorSintesis=Si
+SubFG.ErrorAbsoluto=No
+SubFG.ErrorRelativo=Si
+SubFG.ErrorSegmento=No
+SubFG.ErrorAngular=No
+SubFG.ErrorGlobal=Si
+SubFG.LeyendasPuntos=Si
+SubFG.LeyendasEslabones=Si
+SubFG.LeyendasVectores=Si
+SubFG.LeyendasCIs=Si
+SubFG.RectasKennedy=No
+SubFG.CIRsAbsolutos=Si
+SubFG.CIRsRelativos=Si
+SubFG.FuerzasInternas=Si
+SubFG.FuerzasInternasPuntos=Si
+SubFG.FuerzasInternasEslabones=Si
+SubFG.FuerzasInercia=Si
+SubFG.FuerzasExternas=Si
+SubFG.ParesInercia=Si
+SubFG.ParesExternos=Si
+SubFG.AcelTotales=Si
+SubFG.AcelTangenciales=Si
+SubFG.AcelNormales=Si
+FG.Trayectorias=No
+FG.HodografasVel=No
+FG.HodografasAcel=No
+SubFG.HodografasAcelTotal=Si
+SubFG.HodografasAcelTang=Si
+SubFG.HodografasAcelNorm=Si
+FG.RuletasFijas=No
+SubFG.RuletasFijasPuntos=Si
+SubFG.RuletasFijasEslabones=Si
+SubFG.RuletasFijasRelativas=Si
+FG.RuletasMoviles=No
+SubFG.RuletasMovilesPuntos=Si
+SubFG.RuletasMovilesEslabones=Si
+SubFG.RuletasMovilesRelativas=Si
+FG.CurvasFuerzasInternas=No
+SubFG.CurvasFuerzasInternasPuntos=Si
+SubFG.CurvasFuerzasInternasEslabones=Si
+FG.CurvasReacciones=No
+FG.CurvasFuerzasExternas=No
+FG.CadenaCinematica=Si
+SubFG.SRCadena=No
+SubFG.Mecanismo=Si
+SubFG.VectoresCadenaCinematica=Si
+SubFG.VectoresEcuacionCierre=Si
+SubFG.VectoresPuntos=Si
+SubFG.ExpresionesCadenaCinematica=Si
+SubFG.ExpresionesEcuacionCierre=Si
+SubFG.ExpresionesPuntos=Si
+FG.PoligonosVelocidades=No
+SubFG.ImagenesVelocidades=Si
+SubFG.ImagenesVelocidadesPuntos=Si
+SubFG.ImagenesVelocidadesEslabones=Si
+SubFG.DireccionesVelocidades=Si
+SubFG.VectoresAbsolutosVelocidades=Si
+SubFG.VectoresRelativosVelocidades=Si
+FG.PoligonosAceleraciones=Si
+SubFG.ImagenesAceleraciones=Si
+SubFG.ImagenesAceleracionesPuntos=Si
+SubFG.ImagenesAceleracionesEslabones=Si
+SubFG.DireccionesAceleraciones=Si
+SubFG.VectoresAbsolutosAceleraciones=Si
+SubFG.VectoresAbsolutosAceleracionesTotales=Si
+SubFG.VectoresAbsolutosAceleracionesComponentes=No
+SubFG.VectoresRelativosAceleraciones=Si
+SubFG.VectoresRelativosAceleracionesTotales=Si
+SubFG.VectoresRelativosAceleracionesComponentes=No
+FG.PoligonosFuerzas=No
+SubFG.PoligonosFuerzasPuntos=Si
+SubFG.PoligonosFuerzasEslabones=Si
+
+[Colores Filtros Gráficos]
+FG.SistemasReferencia=0
+FG.Escala=0
+FG.Fijas=0
+FG.Leyendas=0
+FG.Eslabones=0
+FG.Formas=37
+FG.RadiosInstantaneos=11
+FG.CIRs=0
+FG.CIGs=0
+FG.AccionEquilibrante=9
+FG.Fuerzas=0
+FG.Reacciones=22
+FG.Pares=0
+FG.Posiciones=11
+FG.Velocidades=1
+FG.Aceleraciones=0
+FG.PosicionesAngulares=11
+FG.VelocidadesAngulares=1
+FG.AceleracionesAngulares=5
+FG.CDGs=0
+FG.Puntos=0
+FG.ElementosDinamicos=0
+SubFG.SistemasReferenciaAbs=16
+SubFG.SistemasReferenciaRel=16
+SubFG.SistemasReferenciaInfo=13
+SubFG.EscalaPosiciones=0
+SubFG.EscalaVelocidades=1
+SubFG.EscalaAceleraciones=5
+SubFG.EscalaFuerzas=24
+FG.PosicionesSintesis=0
+SubFG.PosicionesReferencia=14
+SubFG.PosicionesReales=11
+FG.TrayectoriasSintesis=0
+SubFG.TrayectoriaReferencia=14
+SubFG.TrayectoriaReal=11
+FG.VelocidadesSintesis=0
+SubFG.VelocidadReferencia=1
+SubFG.VelocidadReal=1
+SubFG.VectoresVelocidad=1
+FG.AceleracionesSintesis=0
+SubFG.AceleracionReferencia=5
+SubFG.AceleracionReal=5
+SubFG.VectoresAceleracion=5
+FG.ErrorSintesis=16
+SubFG.ErrorAbsoluto=16
+SubFG.ErrorRelativo=0
+SubFG.ErrorSegmento=9
+SubFG.ErrorAngular=17
+SubFG.ErrorGlobal=16
+SubFG.LeyendasPuntos=0
+SubFG.LeyendasEslabones=0
+SubFG.LeyendasVectores=0
+SubFG.LeyendasCIs=0
+SubFG.RectasKennedy=18
+SubFG.CIRsAbsolutos=0
+SubFG.CIRsRelativos=16
+SubFG.FuerzasInternas=0
+SubFG.FuerzasInternasPuntos=24
+SubFG.FuerzasInternasEslabones=24
+SubFG.FuerzasInercia=18
+SubFG.FuerzasExternas=10
+SubFG.ParesInercia=18
+SubFG.ParesExternos=10
+SubFG.AcelTotales=5
+SubFG.AcelTangenciales=12
+SubFG.AcelNormales=12
+FG.Trayectorias=11
+FG.HodografasVel=1
+FG.HodografasAcel=0
+SubFG.HodografasAcelTotal=5
+SubFG.HodografasAcelTang=12
+SubFG.HodografasAcelNorm=12
+FG.RuletasFijas=0
+SubFG.RuletasFijasPuntos=11
+SubFG.RuletasFijasEslabones=11
+SubFG.RuletasFijasRelativas=16
+FG.RuletasMoviles=0
+SubFG.RuletasMovilesPuntos=22
+SubFG.RuletasMovilesEslabones=22
+SubFG.RuletasMovilesRelativas=13
+FG.CurvasFuerzasInternas=0
+SubFG.CurvasFuerzasInternasPuntos=24
+SubFG.CurvasFuerzasInternasEslabones=24
+FG.CurvasReacciones=22
+FG.CurvasFuerzasExternas=10
+FG.CadenaCinematica=11
+SubFG.SRCadena=16
+SubFG.Mecanismo=31
+SubFG.VectoresCadenaCinematica=11
+SubFG.VectoresEcuacionCierre=11
+SubFG.VectoresPuntos=11
+SubFG.ExpresionesCadenaCinematica=11
+SubFG.ExpresionesEcuacionCierre=11
+SubFG.ExpresionesPuntos=11
+FG.PoligonosVelocidades=0
+SubFG.ImagenesVelocidades=0
+SubFG.ImagenesVelocidadesPuntos=0
+SubFG.ImagenesVelocidadesEslabones=0
+SubFG.DireccionesVelocidades=14
+SubFG.VectoresAbsolutosVelocidades=1
+SubFG.VectoresRelativosVelocidades=1
+FG.PoligonosAceleraciones=0
+SubFG.ImagenesAceleraciones=0
+SubFG.ImagenesAceleracionesPuntos=0
+SubFG.ImagenesAceleracionesEslabones=0
+SubFG.DireccionesAceleraciones=14
+SubFG.VectoresAbsolutosAceleraciones=0
+SubFG.VectoresAbsolutosAceleracionesTotales=5
+SubFG.VectoresAbsolutosAceleracionesComponentes=12
+SubFG.VectoresRelativosAceleraciones=0
+SubFG.VectoresRelativosAceleracionesTotales=5
+SubFG.VectoresRelativosAceleracionesComponentes=12
+FG.PoligonosFuerzas=0
+SubFG.PoligonosFuerzasPuntos=24
+SubFG.PoligonosFuerzasEslabones=24
+
+[WinMecC]
+Versión=4.6.2.0
+
